@@ -21,7 +21,7 @@ if 'test' in sys.argv:
             'NAME': 'django_ttdb',
             'USER': 'postgres',
             'HOST': '127.0.0.1',
-            'TEST_TEMPLATE': True,
+            'TEST': {'TEMPLATE': True},
         }
     }
 else:
